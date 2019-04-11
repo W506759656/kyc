@@ -1,0 +1,25 @@
+{
+    "name": "wding/kyc",
+    "description": "kyc",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "王鼎",
+            "email": "506759656@qq.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Leonis\\Kyc\\" :"src/"
+        }
+    },
+    "extra":{
+        "laravel":{
+            "providers":   [
+                "Leonis\\Kyc\\Providers\\ServiceProvider"
+            ]
+        }
+    }
+}
